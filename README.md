@@ -11,6 +11,7 @@
 - #### 04 ¡Es hora de poner la navidad en casa!
 - #### 05 Contando los días para los regalos
 - #### 06 Rematando los exámenes finales
+- #### 07 Buscando en el almacén...
 
 ---
 ###### *Franco Siccatto* [@FSikkario](https://twitter.com/FSikkario)
