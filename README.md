@@ -15,7 +15,7 @@
 - ##### 08 La locura de las criptomonedas
 
 ---
-## 01 - Contando ovejas para dormir [<01/>](01-contandoOvejas.js)
+## 01 - Contando ovejas para dormir [<01/>](https://github.com/fsiccatto/AdventJS/blob/main/01-contandoOvejas.js)
 Considera una lista/array de ovejas. Cada oveja tiene un nombre y un color. Haz una función que devuelva una lista con todas las ovejas que sean de color rojo y que además su nombre contenga tanto las letras n Y a, sin importar el orden, las mayúsculas o espacios.
 Por Ejemplo:
 ```
@@ -30,7 +30,7 @@ const ovejas = [
 ```
 
 ---
-## 02 - ¡Ayuda al elfo a listar los regalos [<02/>](02-listarRegalos.js)
+## 02 - ¡Ayuda al elfo a listar los regalos [<02/>](https://github.com/fsiccatto/AdventJS/blob/main/02-ayudaElfo.js)
 Te ha llegado una carta ✉️ con todos los regalos que debes preparar. El tema es que es una cadena de texto y es muy difícil de leer 😱. ¡Menos mal que han puesto cada regalo separado por espacio! (aunque ten cuidado, porque al ser niños, igual han colado más espacios de la cuenta)
 
 Encima nos hemos dado cuenta que algunas palabras vienen con un _ delante de la palabra, por ejemplo _playstation, que significa que está tachado y no se tiene que contar.
@@ -41,7 +41,7 @@ const carta = 'bici coche balon _playstation bici coche peluche';
 ```
 
 ---
-## 03 - El Grinch quiere fastidiar la Navidad [<03/>](03-grinch.js)
+## 03 - El Grinch quiere fastidiar la Navidad [<03/>](https://github.com/fsiccatto/AdventJS/blob/main/03-elGrinch.js)
 El Grinch está abriendo las cartas que iban a Santa Claus y las está dejando hechas un lío. 😱
 
 Las cartas son una cadena de texto que incluyen regalos y paréntesis ().
@@ -57,7 +57,7 @@ const regalo2 = isValid("(peluche {) bici"); // false
 ```
 
 ---
-## 04 - ¡Es hora de poner la navidad en casa [<04/>](04-navidad.js)
+## 04 - ¡Es hora de poner la navidad en casa [<04/>](https://github.com/fsiccatto/AdventJS/blob/main/04-arbolNavidad.js)
 ¡Es hora de poner el árbol de navidad en casa! 🎄
 
 Para ello vamos a crear una función que recibe la altura del árbol, que será un entero positivo del 1 a, como máximo, 100.
@@ -77,12 +77,12 @@ ____#____
 ```
 
 ---
-## 05 - Contando los días para los regalos [<05/>](05-contandoDias.js)
+## 05 - Contando los días para los regalos [<05/>](https://github.com/fsiccatto/AdventJS/blob/main/05-diasParaNavidad.js)
 Con la emoción, ya estamos empezando a contar los días del calendario hasta el 25 de diciembre 📆.
 
 Para ayudar a esto, vamos a crear una función que pasándole una instancia de Date nos diga el número de días que faltan.
 ---
-## 06 - Rematando los exámenes finales [<06/>](06-rematandoExamenes.js)
+## 06 - Rematando los exámenes finales [<06/>](https://github.com/fsiccatto/AdventJS/blob/main/06-examenesFinales.js)
 A una función se le pasan dos parámetros: un Array con números y el resultado que se espera.
 
 La función debe devolver los dos valores del Array que sumen el resultado esperado. Como a veces pueden haber más de dos valores que sumen, se devolverá el primero empezando por la izquierda que encuentre otro par, sin importar lo lejos que esté a la derecha.
@@ -90,7 +90,7 @@ La función debe devolver los dos valores del Array que sumen el resultado esper
 Si no se encuentra, se devuelve null.
 
 ---
-## 07 - Buscando en el almacén [<07/>](07-buscandoAlmacen.js)
+## 07 - Buscando en el almacén [<07/>](https://github.com/fsiccatto/AdventJS/blob/main/07-almacen.js)
 Mi amigo Dani está trabajando en una tienda y con la llegada de las navidades tiene el almacén hecho un desastre y no encuentra nada.
 
 Vamos a crear una función contains que recibe dos parámetros: un objeto que define el almacén y el producto que buscamos.
@@ -126,7 +126,7 @@ const otroAlmacen = {
 ```
 
 ---
-## 08 - ¡Es hora de poner la navidad en casa [<08/>](08-navidad.js)
+## 08 - ¡Es hora de poner la navidad en casa [<08/>](https://github.com/fsiccatto/AdventJS/blob/main/08-criptomonedas.js)
 Invertir en criptomonedas es casi un deporte de riesgo. El otro día hackearon Bitmart y ha hecho que el valor de Bitcoin, y otras monedas, bajase un 25%.
 
 Vamos a escribir una función que reciba la lista de precios de una criptomoneda en un día y debemos devolver la ganancia máxima que podríamos sacar si compramos y vendemos la inversión el mismo día.
@@ -151,7 +151,35 @@ maxProfit(pricesAda) =  //-> -1 (no hay ganancia posible)
 ```
 
 ---
-## 09 - ¡Es hora de poner la navidad en casa [<09/>](09-navidad.js)
+## 09 - ¡Es hora de poner la navidad en casa [<09/>](https://github.com/fsiccatto/AdventJS/blob/main/09-navidad.js)
+En la fábrica de Papa Noél 🎅 se acerca el día especial... y todavía tenemos un montón de cosas por contar. 😅
+
+Por suerte a Mark Zucktheelf 🧝 se le ha ocurrido crear una función que permita agrupar un array, que puede ser de valores u objetos, a través de una función o de una propiedad.
+
+Nos trae un montón de ejemplos:
+
+```
+groupBy([6.1, 4.2, 6.3], Math.floor) // { 6: [6.1, 6.3], 4: [4.2] }
+groupBy(['one', 'two', 'three'], 'length') // { 3: ['one', 'two'], 5: ['three'] }
+groupBy([{age: 23}, {age: 24}], 'age') // { 23: [{age: 23}], 24: [{age: 24}] }
+
+groupBy(
+  [1397639141184, 1363223700000],
+  timestamp => new Date(timestamp).getFullYear()
+)
+// { 2013: [1363223700000], 2014: [1397639141184] }
+
+groupBy([
+  { title: 'JavaScript: The Good Parts', rating: 8 },
+  { title: 'Aprendiendo Git', rating: 10 },
+  { title: 'Clean Code', rating: 9 },
+], 'rating')
+// { 8: [{ title: 'JavaScript: The Good Parts', rating: 8 }],
+//   9: [{ title: 'Clean Code', rating: 9 }],
+//   10: [{ title: 'Aprendiendo Git', rating: 10 }] }
+```
+
+Como ves, la función groupBy recibe una colección (array) y una función o una propiedad, y devuelve un objeto con claves que son los valores de la función ejecutada pasando como argumento cada elemento o de la propiedad por cada elemento. Luego los valores son un array de los valores que tengan la misma llave.
 
 ---
 ###### *Franco Siccatto* [@FSikkario](https://twitter.com/FSikkario)
