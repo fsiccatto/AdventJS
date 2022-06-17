@@ -21,9 +21,10 @@
 10. #### La máquina de cambio 🎰 [<10>](#10---la-máquina-de-cambio-10)
 11. #### ¿Vale la pena la tarjeta de fidelidad del cine? 🎬 [<11>](#11---vale-la-pena-la-tarjeta-de-fidelidad-del-cine-11)
 12. #### La ruta perfecta para dejar los regalos 🛣️ [<12>](#12---la-ruta-perfecta-para-dejar-los-regalos-12)
+13. #### Envuelve regalos con asteriscos 💥 [<13>](#13---envuelve-regalos-con-asteriscos-13)
 ---
 
-## 01 - Contando ovejas para dormir [</01>](01-contandoOvejas.js)
+## **01 - Contando ovejas para dormir** [</01>](01-contandoOvejas.js)
 Considera una lista/array de ovejas. Cada oveja tiene un nombre y un color. Haz una función que devuelva una lista con todas las ovejas que sean de color rojo y que además su nombre contenga tanto las letras n Y a, sin importar el orden, las mayúsculas o espacios.
 Por Ejemplo:
 ```
@@ -38,7 +39,7 @@ const ovejas = [
 ```
 
 ---
-## 02 - Ayuda al elfo a listar los regalos [</02>](02-ayudaElfo.js)
+## **02 - Ayuda al elfo a listar los regalos** [</02>](02-ayudaElfo.js)
 Te ha llegado una carta ✉️ con todos los regalos que debes preparar. El tema es que es una cadena de texto y es muy difícil de leer 😱. ¡Menos mal que han puesto cada regalo separado por espacio! (aunque ten cuidado, porque al ser niños, igual han colado más espacios de la cuenta)
 
 Encima nos hemos dado cuenta que algunas palabras vienen con un _ delante de la palabra, por ejemplo _playstation, que significa que está tachado y no se tiene que contar.
@@ -49,7 +50,7 @@ const carta = 'bici coche balon _playstation bici coche peluche';
 ```
 
 ---
-## 03 - El Grinch quiere fastidiar la Navidad [</03>](03-elGrinch.js)
+## **03 - El Grinch quiere fastidiar la Navidad** [</03>](03-elGrinch.js)
 El Grinch está abriendo las cartas que iban a Santa Claus y las está dejando hechas un lío. 😱
 
 Las cartas son una cadena de texto que incluyen regalos y paréntesis ( ).
@@ -65,7 +66,7 @@ const regalo2 = isValid("(peluche {) bici"); // false
 ```
 
 ---
-## 04 - Es hora de poner la navidad en casa [</04>](04-arbolNavidad.js)
+## **04 - Es hora de poner la navidad en casa** [</04>](04-arbolNavidad.js)
 ¡Es hora de poner el árbol de navidad en casa! 🎄
 
 Para ello vamos a crear una función que recibe la altura del árbol, que será un entero positivo del 1 a, como máximo, 100.
@@ -91,7 +92,7 @@ Con la emoción, ya estamos empezando a contar los días del calendario hasta el
 Para ayudar a esto, vamos a crear una función que pasándole una instancia de Date nos diga el número de días que faltan.
 
 ---
-## 06 - Rematando los exámenes finales [</06>](06-examenesFinales.js)
+## **06 - Rematando los exámenes finales** [</06>](06-examenesFinales.js)
 A una función se le pasan dos parámetros: un Array con números y el resultado que se espera.
 
 La función debe devolver los dos valores del Array que sumen el resultado esperado. Como a veces pueden haber más de dos valores que sumen, se devolverá el primero empezando por la izquierda que encuentre otro par, sin importar lo lejos que esté a la derecha.
@@ -99,7 +100,7 @@ La función debe devolver los dos valores del Array que sumen el resultado esper
 Si no se encuentra, se devuelve `null`.
 
 ---
-## 07 - Buscando en el almacén [</07>](07-almacen.js)
+## **07 - Buscando en el almacén** [</07>](07-almacen.js)
 Mi amigo Dani está trabajando en una tienda y con la llegada de las navidades tiene el almacén hecho un desastre y no encuentra nada.
 
 Vamos a crear una función contains que recibe dos parámetros: un objeto que define el almacén y el producto que buscamos.
@@ -135,7 +136,7 @@ const otroAlmacen = {
 ```
 
 ---
-## 08 - La locura de las criptomonedas [</08>](08-criptomonedas.js)
+## **08 - La locura de las criptomonedas** [</08>](08-criptomonedas.js)
 Invertir en criptomonedas es casi un deporte de riesgo. El otro día hackearon Bitmart y ha hecho que el valor de Bitcoin, y otras monedas, bajase un 25%.
 
 Vamos a escribir una función que reciba la lista de precios de una criptomoneda en un día y debemos devolver la ganancia máxima que podríamos sacar si compramos y vendemos la inversión el mismo día.
@@ -160,7 +161,7 @@ maxProfit(pricesAda) =  //-> -1 (no hay ganancia posible)
 ```
 
 ---
-## 09 - Es hora de poner la navidad en casa [</09>](09-navidad.js)
+## **09 - Es hora de poner la navidad en casa** [</09>](09-navidad.js)
 En la fábrica de Papa Noél 🎅 se acerca el día especial... y todavía tenemos un montón de cosas por contar. 😅
 
 Por suerte a Mark Zucktheelf 🧝 se le ha ocurrido crear una función que permita agrupar un array, que puede ser de valores u objetos, a través de una función o de una propiedad.
@@ -214,7 +215,7 @@ getCoins(100) // [0, 0, 0, 0, 0, 2] -> dos monedas de 50 céntimos
 La dificultad del reto está en saber utilizar correctamente una estructura que te permita conocer las monedas que tienes disponible para crear el array con la devolución, ya que **debes usar siempre el menor número de monedas posible**. ¡Suerte 👩‍💻👨‍💻!.
 
 ---
-## 11 - Vale la pena la tarjeta de fidelidad del cine\? [</11>](11-tarjetaCine.js)
+## **11 - Vale la pena la tarjeta de fidelidad del cine\?** [</11>](11-tarjetaCine.js)
 Este mes de diciembre hay películas super interesantes en el cine... y tengo que optimizar cómo gasto el dinero.
 
 Mi cine favorito tiene dos posibilidades:
@@ -236,7 +237,7 @@ shouldBuyFidelity(100) // true -> Mejor comprar tarjeta fidelidad
 La dificultad del reto está en encontrar una fórmula sencilla que nos diga el precio con descuento acumulado para la tarjeta fidelidad. 😜
 
 ---
-## 12 - La ruta perfecta para dejar los regalos [</12>](12-rutaRegalos.js)
+## **12 - La ruta perfecta para dejar los regalos** [</12>](12-rutaRegalos.js)
 En el taller de Santa 🎅 se están preparando los trineos de motor eléctrico para poder hacer la ruta perfecta para dejar los regalos.
 
 **La ruta empieza en el punto 0 y de ahí va hacia la derecha en línea recta.**
@@ -280,6 +281,45 @@ getMinJump([9, 5, 1]) // -> 2
 */
 ```
 La dificultad del reto está en pensar que sólo podemos configurar el salto del trineo una vez y que buscamos el salto mínimo que nos serviría para sortear todos los obstaculos.
+
+---
+## **13 - Envuelve regalos con asteriscos** [</13>](13-envolverRegalos.js)
+Hay demasiados regalos 🎁! Y envolverlos es una locura...
+
+Vamos a crear una función que pasándole un array de regalos, nos devuelva otro array pero donde todos los regalos han sido envueltos con asteriscos tanto por arriba como por los lados.
+
+Sólo tienes que tener en cuenta unas cosillas ✌️:
+
+- Si el array está vacío, devuelve un array vacío
+- Los regalos son emojis 🎁... por lo que tenlo en cuenta a la hora de contar su longitud...
+- Por suerte, cada posición del array siempre tiene la misma longitud...
+```
+wrapGifts(["📷", "⚽️"])
+/* Resultado:
+[ '****',
+  '*📷*',
+  '*⚽️*',
+  '****'
+]
+*/
+
+wrapGifts(["🏈🎸", "🎮🧸"])
+/* Resultado:
+[ '******',
+  '*🏈🎸*',
+  '*🎮🧸*',
+  '******'
+]
+*/
+
+wrapGifts(["📷"])
+/* Resultado:
+[ '****',
+  '*📷*',
+  '****'
+]
+*/
+```
 
 ---
 ###### *Franco Siccatto* [@FSikkario](https://twitter.com/FSikkario)
