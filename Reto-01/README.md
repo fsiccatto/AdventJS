@@ -14,4 +14,4 @@ const ovejas = [
 ```
 
 ---
-➡️[Página principal](\..\README.md)
+➡️[Página principal](../README.md)
