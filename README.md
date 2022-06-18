@@ -9,7 +9,7 @@
   > en [AdventsJsChallenges](https://adventjs.dev/)
 
 ---
-1. ### Contando ovejas para dormir 🐑 [<01>](\Reto-01\README.md)
+1. ### Contando ovejas para dormir 🐑 [<01>](Reto-01/README.md)
 2. ### ¡Ayuda al elfo a listar los regalos! 🧝 [<02>](Reto-02\README.md)
 3. ### El Grinch quiere fastidiar la Navidad 🎁 [<03>](Reto-03\README.md)
 4. ### ¡Es hora de poner la navidad en casa! 🎄 [<04>](Reto-04\README.md)
