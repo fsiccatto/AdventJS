@@ -26,6 +26,7 @@
 15. #### El salto perfecto 🏃 [<15>](#15---el-salto-perfecto-15)
 16. #### Descifrando los números... 🔢 [<16>](#16---descifrando-los-números-16)
 17. #### La locura de enviar paquetes en esta época 📦 [<17>](#17---la-locura-de-enviar-paquetes-en-esta-época-17)
+18. #### El sistema operativo de Santa Claus 📱 [<18>](#18---el-sistema-operativo-de-santa-claus-18)
 ---
 
 ## **01 - Contando ovejas para dormir** [</01>](01-contandoOvejas.js)
@@ -438,6 +439,28 @@ countPackages(carriers2, 'camila') // 15
 // 5 de camila, 4 de sergiomartinez, 3 de conchaasensio, 2 de facundocapua y 1 de faviola = 15
 ```
 **¡Ten cuidado!** Como has visto en el segundo ejemplo, **el organigrama puede tener diferentes niveles y además nos viene información que puede ser que no necesitemos**. Debemos tener en cuenta el parámetro de `carrierID` para calcular bien el número y contar todo su equipo.
+
+---
+## 18 - **El sistema operativo de Santa Claus** [</18>](18-sistemaOperativo.js)
+Evelyn Belefzin 👩‍💻 está trabajando en un **sistema operativo** para ser usado en el taller de Santa Claus 🎅.
+
+Se ha dado cuenta que en el taller nadie le presta atención a los nombres de los ficheros y a veces intentan guardar el mismo fichero más de una vez... así que es importante que **gestionemos bien los nombres duplicados**.
+
+Tenemos que crear **una función que al pasarnos un array de nombres de archivo** devolvamos un array con el mismo número de elementos pero donde los nombres que se repetían se anexe al final `(k)` donde _k_ sería el número de veces que se encontró repetido.
+
+Lo mejor es que veamos un ejemplo:
+```
+const files = ['photo', 'postcard', 'photo', 'photo', 'video']
+fixFiles(files) // ['photo', 'postcard', 'photo(1)', 'photo(2)', 'video']
+
+const files2 = ['file', 'file', 'file', 'game', 'game']
+fixFiles(files2) = ['file', 'file(1)', 'file(2)', 'game', 'game(1)']
+
+// ojo que los elfos ya tenían archivos con (1)... ¡y pueden estar repetidos!
+const files3 = ['file', 'file(1)', 'icon', 'icon(1)', 'icon(1)']
+fixFiles(files3) // ['file', 'file(1)', 'icon', 'icon(1)', 'icon(1)(1)']
+```
+Por cierto, nos han dicho que son Agile y usan Scrum. Por eso quieren saber cuánto tiempo vas a tardar para saber cuándo van a poder usarlo. Que hay prisa. 😝 Así que entra a Discord y cuéntanos.
 
 ---
 ###### *Franco Siccatto* [@FSikkario](https://twitter.com/FSikkario)
