@@ -1,4 +1,4 @@
-## 19 - **¿Una carta de pangramas? ¡QUÉ!** [<20>](20-pangramas.js)
+## 20 - **¿Una carta de pangramas? ¡QUÉ!** [<20>](20-pangramas.js)
 ---
 En la clase de español del pueblo de Laponia han creado un reto a la hora de escribir la carta a Papa Noél 🎅: la carta ✉️ tiene que contener todas las letras del alfabeto.
 
