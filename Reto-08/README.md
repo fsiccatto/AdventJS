@@ -24,4 +24,4 @@ maxProfit(pricesAda) =  //-> -1 (no hay ganancia posible)
 ```
 
 ---
-➡️[Página principal](..\README.md)
+➡️[Página principal](../README.md)

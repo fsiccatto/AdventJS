@@ -15,4 +15,4 @@ const regalo2 = isValid("(peluche {) bici"); // false
 ```
 
 ---
-➡️[Página principal](..\README.md)
+➡️[Página principal](../README.md)

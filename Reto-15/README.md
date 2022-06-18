@@ -20,4 +20,4 @@ checkSledJump([1, 2, 3, 2, 1, 2, 3]) // false: sube y baja y sube... ¡no vale!
 **Lo importante:** recorrer el array de izquierda a derecha para ver que la subida sea siempre estricta, detectar el punto más alto y entonces ver que la bajada sea estricta hacia abajo...
 
 ---
-➡️[Página principal](..\README.md)
+➡️[Página principal](../README.md)

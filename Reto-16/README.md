@@ -32,4 +32,4 @@ decodeNumbers(';.W') // NaN
 ```
 
 ---
-➡️[Página principal](..\README.md)
+➡️[Página principal](../README.md)

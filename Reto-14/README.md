@@ -20,4 +20,4 @@ missingReindeer([0]) // -> 1 (¡es el último el que falta!)
 Parece fácil con una complejidad de O(n)... ¿crees que podrías hacerlo mejor?
 
 ---
-➡️[Página principal](..\README.md)
+➡️[Página principal](../README.md)

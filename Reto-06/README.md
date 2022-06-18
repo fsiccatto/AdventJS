@@ -7,4 +7,4 @@ La función debe devolver los dos valores del Array que sumen el resultado esper
 Si no se encuentra, se devuelve `null`.
 
 ---
-➡️[Página principal](..\README.md)
+➡️[Página principal](../README.md)

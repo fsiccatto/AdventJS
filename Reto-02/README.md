@@ -10,4 +10,4 @@ const carta = 'bici coche balon _playstation bici coche peluche';
 ```
 
 ---
-➡️[Página principal](..\README.md)
+➡️[Página principal](../README.md)

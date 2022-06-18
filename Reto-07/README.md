@@ -35,4 +35,4 @@ const otroAlmacen = {
 ```
 
 ---
-➡️[Página principal](..\README.md)
+➡️[Página principal](../README.md)

@@ -45,4 +45,4 @@ getMinJump([9, 5, 1]) // -> 2
 La dificultad del reto está en pensar que sólo podemos configurar el salto del trineo una vez y que buscamos el salto mínimo que nos serviría para sortear todos los obstaculos.
 
 ---
-➡️[Página principal](..\README.md)
+➡️[Página principal](../README.md)
