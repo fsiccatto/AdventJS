@@ -19,3 +19,6 @@ shouldBuyFidelity(1) // false -> Mejor comprar tickets de un sólo uso
 shouldBuyFidelity(100) // true -> Mejor comprar tarjeta fidelidad
 ```
 La dificultad del reto está en encontrar una fórmula sencilla que nos diga el precio con descuento acumulado para la tarjeta fidelidad. 😜
+
+---
+➡️[Página principal](..\README.md)

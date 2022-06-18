@@ -22,3 +22,6 @@ maxProfit(pricesDoge) =  //-> -1 (no hay ganancia posible)
 const pricesAda = [3, 3, 3, 3, 3];
 maxProfit(pricesAda) =  //-> -1 (no hay ganancia posible)
 ```
+
+---
+➡️[Página principal](..\README.md)

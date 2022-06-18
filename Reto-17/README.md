@@ -36,3 +36,6 @@ countPackages(carriers2, 'camila') // 15
 // 5 de camila, 4 de sergiomartinez, 3 de conchaasensio, 2 de facundocapua y 1 de faviola = 15
 ```
 **¡Ten cuidado!** Como has visto en el segundo ejemplo, **el organigrama puede tener diferentes niveles y además nos viene información que puede ser que no necesitemos**. Debemos tener en cuenta el parámetro de `carrierID` para calcular bien el número y contar todo su equipo.
+
+---
+➡️[Página principal](..\README.md)

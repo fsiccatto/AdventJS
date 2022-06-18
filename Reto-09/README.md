@@ -28,3 +28,6 @@ groupBy([
 ```
 
 Como ves, la función `groupBy` recibe una colección (array) y una función o una propiedad, y devuelve un objeto con claves que son los valores de la función ejecutada pasando como argumento cada elemento o de la propiedad por cada elemento. Luego los valores son un array de los valores que tengan la misma llave.
+
+---
+➡️[Página principal](..\README.md)

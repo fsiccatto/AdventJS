@@ -33,3 +33,6 @@ const otroAlmacen = {
   }
 };
 ```
+
+---
+➡️[Página principal](..\README.md)

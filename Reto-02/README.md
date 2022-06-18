@@ -8,3 +8,6 @@ Transforma el texto a un objeto que contenga el nombre de cada regalo y las vece
 ```
 const carta = 'bici coche balon _playstation bici coche peluche';
 ```
+
+---
+➡️[Página principal](..\README.md)

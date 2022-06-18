@@ -19,3 +19,6 @@ const files3 = ['file', 'file(1)', 'icon', 'icon(1)', 'icon(1)']
 fixFiles(files3) // ['file', 'file(1)', 'icon', 'icon(1)', 'icon(1)(1)']
 ```
 Por cierto, nos han dicho que son Agile y usan Scrum. Por eso quieren saber cuánto tiempo vas a tardar para saber cuándo van a poder usarlo. Que hay prisa. 😝 Así que entra a Discord y cuéntanos.
+
+---
+➡️[Página principal](..\README.md)

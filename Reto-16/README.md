@@ -30,3 +30,6 @@ decodeNumbers('!!!') // 300
 decodeNumbers(';!') // 50
 decodeNumbers(';.W') // NaN
 ```
+
+---
+➡️[Página principal](..\README.md)

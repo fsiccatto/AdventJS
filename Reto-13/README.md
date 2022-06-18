@@ -36,3 +36,6 @@ wrapGifts(["📷"])
 ]
 */
 ```
+
+---
+➡️[Página principal](..\README.md)

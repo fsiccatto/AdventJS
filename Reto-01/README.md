@@ -12,3 +12,6 @@ const ovejas = [
   { name: 'Nnnnnnnn', color: 'rojo'}
 ];
 ```
+
+---
+➡️[Página principal](..\README.md)

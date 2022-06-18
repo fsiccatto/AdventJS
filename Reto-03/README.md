@@ -13,3 +13,6 @@ Crea una función que pasándole el texto de la carta, devuelva true si es váli
 const regalo = isValid("bici coche (balon) bici coche peluche"); // true
 const regalo2 = isValid("(peluche {) bici"); // false
 ```
+
+---
+➡️[Página principal](..\README.md)

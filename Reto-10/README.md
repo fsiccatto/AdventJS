@@ -20,3 +20,6 @@ getCoins(16) // [1, 0, 1, 1, 0, 0] -> una moneda de 1 céntimo, una de 5 y una d
 getCoins(100) // [0, 0, 0, 0, 0, 2] -> dos monedas de 50 céntimos
 ```
 La dificultad del reto está en saber utilizar correctamente una estructura que te permita conocer las monedas que tienes disponible para crear el array con la devolución, ya que **debes usar siempre el menor número de monedas posible**. ¡Suerte 👩‍💻👨‍💻!.
+
+---
+➡️[Página principal](..\README.md)

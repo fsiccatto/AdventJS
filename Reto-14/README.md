@@ -18,3 +18,6 @@ missingReindeer([9, 2, 3, 5, 6, 4, 7, 0, 1]) // -> 8
 missingReindeer([0]) // -> 1 (¡es el último el que falta!)
 ```
 Parece fácil con una complejidad de O(n)... ¿crees que podrías hacerlo mejor?
+
+---
+➡️[Página principal](..\README.md)
