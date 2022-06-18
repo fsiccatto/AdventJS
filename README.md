@@ -24,6 +24,7 @@
 13. #### Envuelve regalos con asteriscos 💥 [<13>](#13---envuelve-regalos-con-asteriscos-13)
 14. #### En busca del reno perdido 🦌 [<14>](#14---en-busca-del-reno-perdido-14)
 15. #### El salto perfecto 🏃 [<15>](#15---el-salto-perfecto-15)
+16. #### Descifrando los números... 🔢 [<16>](#16---descifrando-los-números-16)
 ---
 
 ## **01 - Contando ovejas para dormir** [</01>](01-contandoOvejas.js)
@@ -88,7 +89,7 @@ ____#____
 ```
 
 ---
-## 05 - Contando los días para los regalos [</05>](05-diasParaNavidad.js)
+## **05 - Contando los días para los regalos** [</05>](05-diasParaNavidad.js)
 Con la emoción, ya estamos empezando a contar los días del calendario hasta el 25 de diciembre 📆.
 
 Para ayudar a esto, vamos a crear una función que pasándole una instancia de Date nos diga el número de días que faltan.
@@ -194,7 +195,7 @@ groupBy([
 Como ves, la función `groupBy` recibe una colección (array) y una función o una propiedad, y devuelve un objeto con claves que son los valores de la función ejecutada pasando como argumento cada elemento o de la propiedad por cada elemento. Luego los valores son un array de los valores que tengan la misma llave.
 
 ---
-## 10 - La máquina de cambio [</10>](10-maquinaCambio.js)
+## **10 - La máquina de cambio** [</10>](10-maquinaCambio.js)
 Para mejorar la productividad de la tienda en la que trabajamos, vamos a crear una pequeña máquina que calcula el mínimo número de monedas que debemos usar para dar el cambio de una compra en metálico.
 
 Las monedas para cambio que puedes usar son estas:
@@ -350,7 +351,7 @@ Parece fácil con una complejidad de O(n)... ¿crees que podrías hacerlo mejor?
 
 Como ya sabes, el trineo es volador y estamos ajustando el motor para que haga parabolas lo más óptimas posibles. Para esto el salto debe ser siempre hacia arriba y, a partir del punto más alto, debe bajar siempre hacia abajo...
 
-Nuestro mecánico de confianza, Kiko Belfs, que tiene un Tesla genial, nos ha explicado que los saltos se pueden ver como arrays... y que sólo tenemos que asegurarnos que los números suben y bajan de forma correcta. También nos avisa que sólo pasaremos arrays de, como mínimo, tres posiciones.
+Nuestro mecánico de confianza, Kiko Belfs, que tiene un Tesla genial, nos ha explicado que los saltos se pueden ver como arrays... y que sólo tenemos que asegurarnos que **los números suben y bajan de forma correcta**. También nos avisa que sólo pasaremos **arrays de, como mínimo, tres posiciones**.
 
 Nos ha pasado algunos ejemplos de cómo debería ser nuestra función y algunos resultados:
 ```
@@ -363,7 +364,41 @@ checkSledJump([2, 4, 4, 6, 2]) // false: no sube de forma estricta
 checkSledJump([1, 2, 3]) // false: sólo sube
 checkSledJump([1, 2, 3, 2, 1, 2, 3]) // false: sube y baja y sube... ¡no vale!
 ```
-**Lo importante:** recorrer el array de izquierda a derecha para ver que la subida es siempre estricta, detectar el punto más alto y entonces ver que la bajada es estricta hacia abajo...
+**Lo importante:** recorrer el array de izquierda a derecha para ver que la subida sea siempre estricta, detectar el punto más alto y entonces ver que la bajada sea estricta hacia abajo...
+
+---
+## **16 - Descifrando los números...** [</16>](16-descifrandoNumeros.js)
+Lara Eloft ha encontrado unos restos élficos en una cueva, cerca del Círculo Polar Ártico, a 8 km al norte de Rovaniemi.
+
+Ahora se encuentra descifrando unas misteriosas cartas que contiene información sobre unos números que le puede hacer llegar al próximo objetivo.
+
+Lara tiene un documento que contiene una serie de números que pueden ser usados para descifrarlos:
+```
+Símbolo       Valor
+  .             1
+  ,             5
+  :             10
+  ;             50
+  !             100
+```
+Lara, además, ha notado una cosa. **Los símbolos se restan si están inmediatamente a la izquierda de otro mayor.** 😱
+Tenemos que crear una función que nos pasa una cadena de texto con símbolos y tenemos que transformarlo al número correcto. ¡Ojo! Si encuentras un símbolo que no entendemos, mejor que devolvamos un `NaN`:
+```
+decodeNumbers('...') // 3
+decodeNumbers('.,') // 4 (5 - 1)
+decodeNumbers(',.') // 6 (5 + 1)
+decodeNumbers(',...') // 8 (5 + 3)
+decodeNumbers('.........!') // 107 (1 + 1 + 1 + 1 + 1 + 1 + 1 - 1 + 100)
+decodeNumbers('.;') // 49 (50 - 1)
+decodeNumbers('..,') // 5 (-1 + 1 + 5)
+decodeNumbers('..,!') // 95 (1 - 1 - 5 + 100)
+decodeNumbers('.;!') // 49 (-1 -50 + 100)
+decodeNumbers('!!!') // 300
+decodeNumbers(';!') // 50
+decodeNumbers(';.W') // NaN
+```
+
+---
 
 ---
 ###### *Franco Siccatto* [@FSikkario](https://twitter.com/FSikkario)
