@@ -27,6 +27,13 @@
 16. ### Descifrando los números... 🔢 [<16>](Reto-16/README.md)
 17. ### La locura de enviar paquetes en esta época 📦 [<17>](Reto-17/README.md)
 18. ### El sistema operativo de Santa Claus 📱 [<18>](Reto-18/README.md)
+19. ### ¿Qué deberíamos aprender en Platzi? 📚 [<19>](Reto-19/README.md)
+20. ### ¿Una carta de pangramas? ¡QUÉ! 📝 [<20>](Reto-20/README.md)
+21. ### La ruta con los regalos ⛐ [<21>](Reto-21/README.md)
+22. ### ¿Cuántos adornos necesota el árbol? 🌳 [<22>](Reto-22/README.md)
+23. ### ¿Puedes reconfigurar las fábricas para no parar de crear? 🔨 [<23>](Reto-23/README.md)
+24. ### Comparando árboles de navidad 🎄 [<24>](Reto-24/README.md)
+25. ### El último juego y hasta el año que viene 🎉 [<25>](Reto-25/README.md)
 ---
 ###### *Franco Siccatto* [@FSikkario](https://twitter.com/FSikkario)
 ---
