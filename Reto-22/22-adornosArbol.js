@@ -60,11 +60,11 @@ const bigTree = {
 function countDecorations(tree) {
   const sumTree = Object.values(tree).reduce((sumNodes, node) => {
     if (node === null) return sumNodes;
-    return !isNaN(node) 
-      ? sumNodes + node 
+    return !isNaN(node)
+      ? sumNodes + node
       : sumNodes + countDecorations(node)
   }, 0);
   return sumTree;
 }
-console.log(countDecorations(tree)); // 6
-console.log(countDecorations(bigTree)); // 28
+countDecorations(tree); // 6
+countDecorations(bigTree); // 28
