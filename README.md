@@ -1,6 +1,6 @@
-# **_AdventJS_**
+# **_AdventJS_** 2021
 
-## 25 retos en _JavaScript_. Hay retos para todos: fáciles, moderados, difíciles y muy difíciles también!
+## 25 retos en _JavaScript_. Hay retos para todos: fáciles, moderados, difíciles y muy difíciles también! (2021)
 
 ![Imagen](AdventJS.png)
 
@@ -34,6 +34,25 @@
 23. ### ¿Puedes reconfigurar las fábricas para no parar de crear? 🔨 [<23>](Reto-23/README.md)
 24. ### Comparando árboles de navidad 🎄 [<24>](Reto-24/README.md)
 25. ### El último juego y hasta el año que viene 🎉 [<25>](Reto-25/README.md)
+<br/>
+<br/>
+<br/>
+<br/>
+
+---
+# **_AdventJS_** 2022
+
+## 24 retos en _JavaScript_. Hay retos para todos: fáciles, moderados, difíciles y muy difíciles también! (2022)
+
+![Imagen](AdventJS2.png)
+
+> Creador: Midudev 
+  > [@midudev](https://twitter.com/midudev) 
+  > en [AdventsJsChallenges](https://adventjs.dev/)
+
+---
+1. ### ¡Automatizando envolver regalos de navidad! 🖨️ [<01>](adventJS2022/Reto-01/README.md)
+2. ###
 ---
 ###### *Franco Siccatto* [@FSikkario](https://twitter.com/FSikkario)
 ---
