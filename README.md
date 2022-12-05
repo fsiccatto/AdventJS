@@ -52,7 +52,7 @@
 
 ---
 1. ### ¡Automatizando envolver regalos de navidad! 🖨️ [<01>](adventJS2022/Reto-01/README.md)
-2. ###
+2. ### Nadie quiere hacer horas extra ⌚ [<02>](adventJS2022/Reto-02/README.md)
 ---
 ###### *Franco Siccatto* [@FSikkario](https://twitter.com/FSikkario)
 ---
