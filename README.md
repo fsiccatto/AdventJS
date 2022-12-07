@@ -53,7 +53,7 @@
 ---
 1. ### ¡Automatizando envolver regalos de navidad! 🖨️ [<01>](adventJS2022/Reto-01/README.md)
 2. ### Nadie quiere hacer horas extra ⌚ [<02>](adventJS2022/Reto-02/README.md)
-3. ### How many packs of gifts can Santa carry? 📦 [<03>](adventJS2022/Reto-03/README.md)
+3. ### ¿Cuántas cajas de regalos puede llevar Papá Noel? 📦 [<03>](adventJS2022/Reto-03/README.md)
 ---
 ###### *Franco Siccatto* [@FSikkario](https://twitter.com/FSikkario)
 ---
