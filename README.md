@@ -1,4 +1,7 @@
-# **_AdventJS_** 2021
+# **_AdventJS_**
+<details open>
+<summary style="color:green; font-weight:700; font-size:2rem">2021</summary>
+<br/>
 
 ## 25 retos en _JavaScript_. Hay retos para todos: fáciles, moderados, difíciles y muy difíciles también! (2021)
 
@@ -35,12 +38,13 @@
 24. ### Comparando árboles de navidad 🎄 [<24>](Reto-24/README.md)
 25. ### El último juego y hasta el año que viene 🎉 [<25>](Reto-25/README.md)
 <br/>
-<br/>
-<br/>
-<br/>
+
+</details>
 
 ---
-# **_AdventJS_** 2022
+<details open>
+<summary style="color:orange; font-weight:700; font-size:2rem">2022</summary>
+<br/>
 
 ## 24 retos en _JavaScript_. Hay retos para todos: fáciles, moderados, difíciles y muy difíciles también! (2022)
 
@@ -56,6 +60,10 @@
 3. ### ¿Cuántas cajas de regalos puede llevar Papá Noel? 📦 [<03>](adventJS2022/Reto-03/README.md)
 4. ### Una caja dentro de otra caja y otra... 🏗️ [<04>](adventJS2022/Reto-04/README.md)
 5. ### Optimizando viajes de Santa 🎅 [<05>](adventJS2022/Reto-05/README.md)
+<br/>
+
+</details>
+
 ---
 ###### *Franco Siccatto* [@FSikkario](https://twitter.com/FSikkario)
 ---
