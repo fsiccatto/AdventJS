@@ -62,6 +62,7 @@
 5. ### Optimizando viajes de Santa 🎅 [<05>](adventJS2022/Reto-05/README.md)
 6. ### Creando adornos navideños 🎄 [<06>](adventJS2022/Reto-06/README.md)
 7. ### Haciendo inventario de regalos 📋 [<07>](adventJS2022/Reto-07/README.md)
+8. ### ¡Necesitamos un mecánico! 👨‍🔧 [<08>](adventJS2022/Reto-08/README.md)
 <br/>
 
 </details>
