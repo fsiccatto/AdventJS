@@ -60,6 +60,7 @@
 3. ### ¿Cuántas cajas de regalos puede llevar Papá Noel? 📦 [<03>](adventJS2022/Reto-03/README.md)
 4. ### Una caja dentro de otra caja y otra... 🏗️ [<04>](adventJS2022/Reto-04/README.md)
 5. ### Optimizando viajes de Santa 🎅 [<05>](adventJS2022/Reto-05/README.md)
+6. ### Creando adornos navideños 🎄 [<06>](adventJS2022/Reto-06/README.md)
 <br/>
 
 </details>
