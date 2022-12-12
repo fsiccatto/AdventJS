@@ -7,5 +7,3 @@ function createCube(size) {
   }
   return [...head, ...tail].join("\n")
 }
-const cube = createCube(10);
-cube;
