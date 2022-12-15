@@ -64,6 +64,7 @@
 7. ### Haciendo inventario de regalos 📋 [<07>](adventJS2022/Reto-07/README.md)
 8. ### ¡Necesitamos un mecánico! 👨‍🔧 [<08>](adventJS2022/Reto-08/README.md)
 9. ### Las locas luces de Navidad 💡 [<09>](adventJS2022/Reto-09/README.md)
+10. ### El salto del trineo de Papá Noel 🛷 [<10>](adventJS2022/Reto-10/README.md)
 <br/>
 
 </details>
