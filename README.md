@@ -66,6 +66,7 @@
 9. ### Las locas luces de Navidad 💡 [<09>](adventJS2022/Reto-09/README.md)
 10. ### El salto del trineo de Papá Noel 🛷 [<10>](adventJS2022/Reto-10/README.md)
 11. ### Papá Noel es Scrum Master 🧑‍💻 [<11>](adventJS2022/Reto-11/README.md)
+12. ### Trineos Eléctricos, ¡guau! ⚡ [<12>](adventJS2022/Reto-12/README.md)
 <br/>
 
 </details>
